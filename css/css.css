@@ -269,8 +269,9 @@ span.close {
   width: 100%;
 }
 .body-courses-background {
+  background: url("../images/background1.png");
   height: 170px;
-  background-color: #E5E5E5;
+  /* background-color: #E5E5E5; */
   width: 100%;
   display: block;
 }
