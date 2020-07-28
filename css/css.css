@@ -70,7 +70,6 @@ li > a {
   color: #000000;
   border-radius: 17px;
   padding: 0 .5rem 0 .5rem;
-  -webkit-text-stroke: 1px;
 }
 
 /* end header */
@@ -87,7 +86,7 @@ li > a {
 
 
 .learn {
-  font: bold 50px UTM BryantLG; 
+  font: 50px UTM BryantLG; 
   height: 61px;
   left: 59px;
   font-size: 50px;
