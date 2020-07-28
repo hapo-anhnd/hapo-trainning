@@ -5,13 +5,9 @@
 
 @font-face {
   font-family: 'UTM BryantLG';
-  src: url('../fonts/UTM_BryantLG');
+  src: url('../fonts/UTM_BryantLG.ttf');
 }
 
-/* @font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/Open-Sans.woff');
-} */
 
 /* start header */
 
@@ -69,7 +65,7 @@ li:hover a {
 
 li > a {
   text-decoration: none;
-  font: bold 14px 'Open Sans';
+  font: bold 14px Open Sans;
   text-transform: uppercase;
   color: #000000;
   border-radius: 17px;
@@ -91,6 +87,7 @@ li > a {
 
 
 .learn {
+  font: bold 50px UTM BryantLG; 
   height: 61px;
   left: 59px;
   font-size: 50px;
@@ -100,7 +97,6 @@ li > a {
 }
 
 .learn-hapo {
-  width: 395px;
   height: 61px;
   left: 60px;
   font: bold 50px UTM BryantLG; 
@@ -110,7 +106,7 @@ li > a {
 }
 
 .learn-lessons {
-  width: 249px;
+  font: 20px UTM BryantLG; 
   height: 50px;
   left: 60px;
   font-size: 20px;
@@ -153,10 +149,10 @@ li > a {
 }
 /* AAA */
 .block-messenger {
-  font: 600 12px Open-Sans;
+  font: 600 12px Open Sans;
   position: fixed;
   bottom: 90px;
-  right: 60px;
+  right: 35px;
   z-index: 1;
 }
 
@@ -197,6 +193,7 @@ li > a {
 .block-content {
   display: flex;
   flex-direction: column;
+  font: 12px Open Sans;
 }
 
 .web-name {
@@ -337,7 +334,7 @@ span.close {
   color: #B2D235;
 }
 .courses-content-content {
-  font-family:bold 14px UTM BryantLG;
+  font:bold 14px UTM BryantLG;
   line-height: 20px;
   margin: 10px 40px;
   text-align: center;
@@ -548,11 +545,13 @@ span.close {
   padding-left: 10%;
 }
 .feedback-content-top {
+  font: 16px UTM BryantLG;
   height: 190px;
   background-image: url("../images/Union-left.png");
   background-repeat: no-repeat;
 }
 .feedback-content-top-right {
+  font: 16px UTM BryantLG;
   height: 190px;
   background-image: url("../images/Union-right.png");
   background-repeat: no-repeat;
@@ -620,6 +619,7 @@ span.close {
   letter-spacing: -0.02em;
   color: #FFFFFF;
   margin: 0 360px;
+  -webkit-text-stroke: 1px;
 }
 .body-start-learning-button {
   width: 377px;
@@ -664,6 +664,7 @@ span.close {
   text-align: center;
 }
 .body-statistic-title > p {
+  -webkit-text-stroke: 2px;
   padding-top: 110px;
 }
 .body-statistic-title > hr {
@@ -719,6 +720,7 @@ span.close {
   color: #FFFFFF;
 }
 .footer-logo >p {
+  font: 20px UTM BryantLG;
   margin-left: 66px;
 }
 .footer-nav {
@@ -753,7 +755,7 @@ span.close {
 
 .buttom-footer {
   background-color: #454545;
-  font-size: 15px;
+  font: 15px UTM BryantLG;
   letter-spacing: 2px;
   color: #FFFFFF;
   width: 100%;
