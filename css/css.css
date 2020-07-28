@@ -5,13 +5,13 @@
 
 @font-face {
   font-family: 'UTM BryantLG';
-  src: url('../fonts/UTM-BryantLG.ttf');
+  src: url('../fonts/UTM_BryantLG');
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Open Sans';
   src: url('../fonts/Open-Sans.woff');
-}
+} */
 
 /* start header */
 
@@ -20,9 +20,20 @@
   height: 150px;
   left: 0px;
   font-size: 22px;
-  line-height: 150px;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
 }
-
+.header-img {
+  width: 30%;
+}
+.header-nav {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .logo {
   left: 4.17%;
   right: 72.21%;
@@ -33,32 +44,24 @@
 }
 
 .navbar {
-  width: 650px;
-  height: 50px;
+  width: 85%;
   color: #000000;
   font-size: 17px;
-  line-height: 50px;
   list-style-type: none;
   float: right;
   margin: 0;
-  padding: 60px 60px;
   display: flex;
-}
-
-.header::after {
-  content: "asfds";
-  visibility: hidden;
-  clear: both;
+  align-items: center;
 }
 
 li {
-  
+  padding: 0 17px;
+  line-height: 50px;
 }
 
 li:hover{
   background: #B2D235;
   border-radius: 27px;
-  padding: 0 15px;
 }
 li:hover a {
   color: #ffffff;
@@ -66,12 +69,12 @@ li:hover a {
 
 li > a {
   text-decoration: none;
-  font: bold 14px Open Sans;
+  font: bold 14px 'Open Sans';
   text-transform: uppercase;
   color: #000000;
   border-radius: 17px;
   padding: 0 .5rem 0 .5rem;
-  -webkit-text-stroke: 0.5px;
+  -webkit-text-stroke: 1px;
 }
 
 /* end header */
@@ -581,7 +584,7 @@ span.close {
   width: 500px;
 }
 .feedback-content-avt {
-  padding:20px 0 0 15px;
+  padding:18px 0 0 33px;
   height: 60px;
 }
 .feedback-content-space {
@@ -757,6 +760,7 @@ span.close {
   height: 38px;
   line-height: 38px;
   text-align: center;
+  -webkit-text-stroke: 0.3px;
 }
 
 .flex-column {
