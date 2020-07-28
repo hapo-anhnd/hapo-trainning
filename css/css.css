@@ -547,7 +547,6 @@ span.close {
 .add-padding {
   display: flex;
   flex-direction: column;
-  padding-left: 10%;
   justify-content: center;
   width: 595px;
 }
