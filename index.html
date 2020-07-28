@@ -267,9 +267,12 @@
                 </div>
             </div>
             <div class="footer-social">
-                <a href="#"><img src="images/fb.png" alt=""></a>
-                <a href="#"><img src="images/phone.png" alt=""></a>
-                <a href="#"><img src="images/email.png" alt=""></a>
+                <img src="images/fb.png" alt="" onclick="hidde_show('linkFB'); closeDiv('sdt'); closeDiv('mail')">
+                <a href="#" id="linkFB" style="display: block;">facebook.com/tuyen.dung.haposoft</a>
+                <img src="images/phone.png" alt="" onclick="hidde_show('sdt'); closeDiv('linkFB'); closeDiv('mail')">
+                <p id="sdt" style="display: none;">+84-85-645-9898</p>
+                <img src="images/email.png" alt="" onclick="hidde_show('mail'); closeDiv('linkFB'); closeDiv('sdt')">
+                <p id="mail" style="display: none;">info@haposoft.com</p>
             </div>
         </div>
         <div class="buttom-footer">
