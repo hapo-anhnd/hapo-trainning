@@ -352,6 +352,7 @@ span.close {
   border-radius: 22px;
   display: flex;
   justify-content: center;
+  -webkit-text-stroke: 0.6px;
 }
 .this-courses > a{
   text-decoration: none;
@@ -472,19 +473,22 @@ span.close {
 }
 .why-learn-content {
   height: 60%;
-  text-align: center;
+  text-align: right;
+  padding-right: 30px;
 }
 .why-learn-content > p {
   font:20px UTM BryantLG;
   line-height: 25px;
   letter-spacing: -0.05em;
   color: #FFFFFF;
+  padding-top: 10px;
 }
 .why-learn-content > .why-hapolearn {
   font:bold 70px UTM BryantLG;
   line-height: 86px;
   letter-spacing: -0.02em;
   color: #FFFFFF;
+  padding-bottom: 10px;
 }
 .why-img {
   display: flex;
@@ -538,23 +542,40 @@ span.close {
   width: 50%;
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
 }
 .add-padding {
   display: flex;
   flex-direction: column;
   padding-left: 10%;
+  justify-content: center;
+  width: 595px;
 }
 .feedback-content-top {
   font: 16px UTM BryantLG;
   height: 190px;
-  background-image: url("../images/Union-left.png");
+  width: 595px;
+  background-image: url("../images/Union.png");
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feedback-content-top > img {
+  cursor: pointer;
+  line-height: 190px;
 }
 .feedback-content-top-right {
   font: 16px UTM BryantLG;
   height: 190px;
-  background-image: url("../images/Union-right.png");
+  background-image: url("../images/Union.png");
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feedback-content-top-right > img {
+  cursor: pointer;
 }
 
 .feedback-content-button {
@@ -578,7 +599,6 @@ span.close {
   flex-direction: column;
 }
 .feedback-content-center {
-  padding-top: 55px;
   margin: 0 120px 0 60px;
   width: 500px;
 }
@@ -781,7 +801,7 @@ span.close {
 
 .buttom-footer {
   background-color: #454545;
-  font: 15px UTM BryantLG;
+  font: 18px UTM BryantLG;
   color: #FFFFFF;
   width: 100%;
   height: 38px;
